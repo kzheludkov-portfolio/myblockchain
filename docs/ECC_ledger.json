@@ -1,0 +1,121 @@
+[
+  {
+    "currentHash": "007cc56b19b1e1bda56da74f1f1d9341939280bb17dd6726c7215f4354f086",
+    "previousHash": "",
+    "timestamp": 1719975507409,
+    "blockHeight": 2,
+    "data": "",
+    "nonce": 182921,
+    "transactions": [
+      {
+        "txId": 2,
+        "inputTxList": [
+          {
+            "txId": -1,
+            "person": "Donis"
+          }
+        ],
+        "outputTxList": [
+          {
+            "coin": 100,
+            "person": "Donis",
+            "txId": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "currentHash": "00b12c933e25c176b3d2ff78415195a0b4497ab87846db6fe17adc471a3ddb",
+    "previousHash": "007cc56b19b1e1bda56da74f1f1d9341939280bb17dd6726c7215f4354f086",
+    "timestamp": 1719975565303,
+    "blockHeight": 4,
+    "data": "",
+    "nonce": 68103,
+    "transactions": [
+      {
+        "txId": 3,
+        "inputTxList": [
+          {
+            "txId": 2,
+            "person": "Donis"
+          }
+        ],
+        "outputTxList": [
+          {
+            "coin": 50,
+            "person": "Bob",
+            "txId": 3
+          },
+          {
+            "coin": 50,
+            "person": "Donis",
+            "txId": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "currentHash": "00cec154aac7328e371274c6adf37649f8863674b2332c968861ae3f82d",
+    "previousHash": "00b12c933e25c176b3d2ff78415195a0b4497ab87846db6fe17adc471a3ddb",
+    "timestamp": 1719975612391,
+    "blockHeight": 6,
+    "data": "",
+    "nonce": 8537,
+    "transactions": [
+      {
+        "txId": 4,
+        "inputTxList": [
+          {
+            "txId": 4,
+            "person": "Donis"
+          }
+        ],
+        "outputTxList": [
+          {
+            "coin": 50,
+            "person": "Sam",
+            "txId": 5
+          },
+          {
+            "coin": 0,
+            "person": "Donis",
+            "txId": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "currentHash": "006ce1b162539643e277e145df6d4ae8b43c4e284960497e65c014341cf9",
+    "previousHash": "00cec154aac7328e371274c6adf37649f8863674b2332c968861ae3f82d",
+    "timestamp": 1719975694796,
+    "blockHeight": 8,
+    "data": "",
+    "nonce": 54681,
+    "transactions": [
+      {
+        "txId": 5,
+        "inputTxList": [
+          {
+            "txId": 3,
+            "person": "Bob"
+          }
+        ],
+        "outputTxList": [
+          {
+            "coin": 10,
+            "person": "Koss",
+            "txId": 7
+          },
+          {
+            "coin": 40,
+            "person": "Bob",
+            "txId": 8
+          }
+        ]
+      }
+    ]
+  }
+]

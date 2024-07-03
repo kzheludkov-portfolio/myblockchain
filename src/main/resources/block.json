@@ -1,0 +1,146 @@
+{
+  "users": [
+    "Bob",
+    "Peter",
+    "Donis",
+    "Lisa"
+  ],
+  "blocks": [
+    {
+      "currentHash": "00d199e06076d54c59645efc1ec795be21e233a2f3e172f8c2a6cc5c603766",
+      "previousHash": "0",
+      "data": "Hi im the first block",
+      "nonce": 23902,
+      "transactions": [
+        {
+          "inputTxList": [
+            {
+              "txId": -1,
+              "person": "Donis"
+            }
+          ],
+          "outputTxList": [
+            {
+              "coin": 100,
+              "person": "Donis",
+              "txId": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "currentHash": "00ff3b5d2fc5c7999651f35fb27e1954d41878da7c591c3281b0ab75e1",
+      "previousHash": "00d199e06076d54c59645efc1ec795be21e233a2f3e172f8c2a6cc5c603766",
+      "data": "",
+      "nonce": 33227,
+      "transactions": [
+        {
+          "inputTxList": [
+            {
+              "txId": 0,
+              "person": "Donis"
+            }
+          ],
+          "outputTxList": [
+            {
+              "coin": 10,
+              "person": "Bob",
+              "txId": 1
+            },
+            {
+              "coin": 90,
+              "person": "Donis",
+              "txId": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "currentHash": "00e4db6aaca394259c50bae25a8931da1d8c2a9d94ef6ba352a1aedaf5fdd1",
+      "previousHash": "00ff3b5d2fc5c7999651f35fb27e1954d41878da7c591c3281b0ab75e1",
+      "data": "",
+      "nonce": 56116,
+      "transactions": [
+        {
+          "inputTxList": [
+            {
+              "txId": 2,
+              "person": "Donis"
+            }
+          ],
+          "outputTxList": [
+            {
+              "coin": 10,
+              "person": "Peter",
+              "txId": 3
+            },
+            {
+              "coin": 80,
+              "person": "Donis",
+              "txId": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "currentHash": "005a56e85b91670106c26fe8cf04129de88bebacc58f3904f6d26a636d41",
+      "previousHash": "00e4db6aaca394259c50bae25a8931da1d8c2a9d94ef6ba352a1aedaf5fdd1",
+      "data": "",
+      "nonce": 56476,
+      "transactions": [
+        {
+          "inputTxList": [
+            {
+              "txId": 4,
+              "person": "Donis"
+            }
+          ],
+          "outputTxList": [
+            {
+              "coin": 10,
+              "person": "Lisa",
+              "txId": 5
+            },
+            {
+              "coin": 70,
+              "person": "Donis",
+              "txId": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "currentHash": "00cd5b70fc9ba5282c7cbbd06a91af69eac2a625d52ae41632446a6d24c74",
+      "previousHash": "005a56e85b91670106c26fe8cf04129de88bebacc58f3904f6d26a636d41",
+      "data": "",
+      "nonce": 9962,
+      "transactions": [
+        {
+          "inputTxList": [
+            {
+              "txId": 6,
+              "person": "Donis"
+            }
+          ],
+          "outputTxList": [
+            {
+              "coin": 10,
+              "person": "Lisa",
+              "txId": 8
+            },
+            {
+              "coin": 60,
+              "person": "Donis",
+              "txId": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "valid": true
+}
